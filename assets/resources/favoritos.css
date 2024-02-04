@@ -1,0 +1,19 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(238, 223, 7, 0.452);
+}
+
+header {
+    background-color: rgb(235, 111, 9);
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#transper {
+    text-align: center;
+    color: #181414;
+    background-color: #b6b0b0;
+}
