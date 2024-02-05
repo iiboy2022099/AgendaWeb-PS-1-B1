@@ -11,7 +11,7 @@
 
 <body>
     <header>
-        <h1>Bienvenidos a tu lista de Pendientes y Tareas....</h1>
+        <h1>Bienvenidos a tu lista de Tareas</h1>
     </header>
 
     <div class="user">
@@ -19,8 +19,9 @@
             <img id="avatar" src="../images/Yo.png" alt="Avatar del Usuario" width="50" height="50">
             <div>
                 <h1>Ignacio José Iboy Leiva</h1>
-                <p>Número de Teléfono: 5180-4361</p>
-                <p>7 calle 16-70 zona 14,Ciudad De Guatemala</p>
+                <p><strong>Número de Teléfono:</strong> 5180-4361</p>
+                <p> <strong>Email:</strong> iiboy-2022099@kinal.edu.gt</p>
+                <p> <strong>Direción:</strong> 7 calle 16-70 zona 14,Ciudad De Guatemala</p>
             </div>
         </div>
         <div>
@@ -28,9 +29,9 @@
             <input type="text" id="nuevaTarea" placeholder="Escribe una nueva tarea...">
             <button onclick="agregarTarea()">Agregar</button>
         </div>
+        <ul id="listaTareas"></ul>
     </div>
-
-    <ul id="listaTareas"></ul>
+    <script src="../scripts/logica.js"></script>
 
 </body>
 
