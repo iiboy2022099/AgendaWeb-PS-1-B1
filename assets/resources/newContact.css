@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: rgba(77, 243, 11, 0.404);
+    background-color: rgba(11, 235, 243, 0.404);
 }
 
 
@@ -38,7 +38,7 @@ input {
 }
 
 button {
-    background-color: #4CAF50;
+    background-color: #134be7;
     color: white;
     padding: 10px 15px;
     border: none;
@@ -47,9 +47,10 @@ button {
 }
 
 button:hover {
-    background-color: #45a049;
+    background-color: #8113e7;
 }
 
 #contactList {
     margin-top: 20px;
 }
+
