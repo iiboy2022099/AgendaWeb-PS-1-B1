@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,30 @@
     <link rel="stylesheet" href="../resources/DoList.css">
     <title>DoList</title>
 </head>
+
 <body>
-    
+    <header>
+        <h1>Bienvenidos a tu lista de Pendientes y Tareas....</h1>
+    </header>
+
+    <div class="user">
+        <div id="perfilUsuario">
+            <img id="avatar" src="../images/Yo.png" alt="Avatar del Usuario" width="50" height="50">
+            <div>
+                <h1>Ignacio José Iboy Leiva</h1>
+                <p>Número de Teléfono: 5180-4361</p>
+                <p>7 calle 16-70 zona 14,Ciudad De Guatemala</p>
+            </div>
+        </div>
+        <div>
+            <label for="nuevaTarea">Nueva Tarea:</label>
+            <input type="text" id="nuevaTarea" placeholder="Escribe una nueva tarea...">
+            <button onclick="agregarTarea()">Agregar</button>
+        </div>
+    </div>
+
+    <ul id="listaTareas"></ul>
+
 </body>
+
 </html>
